@@ -53,6 +53,3 @@ export default function Index() {
   );
 }
 
-{
-  /* <p className="mt-2 text-gray-600 flex items-center justify-center"></p> */
-}
