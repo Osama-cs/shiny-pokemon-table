@@ -15,7 +15,7 @@ export const loader: LoaderFunction = async ({ params }) => {
 export default function PostSlug() {
   const { pokemon } = useLoaderData() as LoaderData;
   return (
-    <body className="h-screen bg-zinc-100">
+    <body className="h-screen bg-zinc-100 py-48">
       <div className="text-center">
         <span className="text-3xl text-center text-black">This is shiny: </span>
         <span className="text-3xl text-center text-black"></span>
